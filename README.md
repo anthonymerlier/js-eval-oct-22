@@ -11,7 +11,7 @@ L'objectif de cet exercice va consister à vérifier ce formulaire, et ce avec d
 
 Vous êtes autorisé(e) à effectuer toutes les modifications que vous estimerez nécessaires, néanmoins il faudra que celles-ci soient légitimes.
 
-Les ponts seront répartis de la sorte :
+Les points seront répartis de la sorte :
 
 - Aspect fonctionnel : 10 points
 - Propreté et qualité de code : 6 points
