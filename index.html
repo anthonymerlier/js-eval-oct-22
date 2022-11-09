@@ -9,7 +9,7 @@
   </head>
   <body>
     <div class="wrapper">
-      <form method="get">
+      <form method="get" id="form">
         <h1>Mon superbe formulaire à traiter</h1>
         <div class="input_group">
           <label for="email">Email</label>
@@ -18,14 +18,17 @@
             name="email"
             id="email"
             placeholder="john.doe@gmail.com"
+            required
           />
+          <span id="errorEmail"></span>
         </div>
         <div class="input_group">
           <label for="password">Mot de passe</label>
-          <input type="password" name="password" id="password" />
+          <input type="password" name="password" id="password" required />
+          <span id="errorPassword"></span>
         </div>
         <div class="input_group">
-          <input type="submit" value="Se connecter" />
+          <input type="submit" value="Se connecter" id="submit" />
         </div>
       </form>
     </div>

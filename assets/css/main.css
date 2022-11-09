@@ -38,6 +38,11 @@ form .input_group {
   gap: 0.3rem;
 }
 
+form .input_group span {
+  color: darkred;
+  text-align: center;
+}
+
 form .input_group input {
   background-color: #fff;
   border: 1px solid #ccc;
